@@ -1,7 +1,7 @@
-body{
+body:hover{
     font-family: 'Yellowtail', cursive;
-    background-color: black;
-    color: rgb(234, 255, 41);
+    background-color:rgb(44, 1, 112);
+    color:yellow;
 }
 section{
     display: flex;
@@ -10,7 +10,7 @@ h1{
     font-size: 60px;
 }
 span{
-    color:chartreuse
+    color:chartreuse;
 }
 .half{
     width:50%
@@ -45,4 +45,12 @@ div{
     padding-right:100px;
     padding-top:70px;
 }
-
+body{
+    font-family: 'Yellowtail', cursive;
+    background-color: black;
+    color:green;
+    
+}
+span:hover{
+    color:blue;
+}
