@@ -1,3 +1,75 @@
+@keyframes sliding {
+    0% {
+        background-color: yellow;
+        left: -79px;
+        top: 0px;
+
+    }
+
+    20% {
+        top: 350px;
+        background-color: greenyellow;
+    }
+
+    40% {
+        top: 0px;
+        background-color: lightgreen;
+    }
+
+    60% {
+        top: 350px;
+        background-color: blue;
+
+    }
+
+    80% {
+        top: 0px;
+        background-color: blueviolet;
+    }
+
+    100% {
+        background-color: violet;
+        left: 1150px;
+        top: 350px;
+    }
+}
+
+.stage {
+    width: 1260px;
+    height: 450px;
+    background-color: lightskyblue;
+}
+
+.ball {
+    width: 30px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    left:-79px;
+    animation: sliding 4s linear 0 infinite alternate;
+    animation-play-state: running;
+}
+
+.stage:hover .ball {
+    width: 30px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    left: -79px;
+    animation: sliding 3s linear 0.1s infinite alternate;
+    animation-play-state: running;
+}
+
+body {
+    margin: 0px;
+}
+
+.Size {
+    font-size: 50px;
+    text-align: center;
+}
 body:hover{
     font-family: 'Yellowtail', cursive;
     background-color:rgb(44, 1, 112);
@@ -54,3 +126,4 @@ body{
 span:hover{
     color:blue;
 }
+
