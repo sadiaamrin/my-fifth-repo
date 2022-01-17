@@ -38,6 +38,7 @@
     width: 1260px;
     height: 450px;
     background-color:rgb(37, 37, 37);
+    transition: 0.1s linear;
 }
 
 .ball {
@@ -63,6 +64,7 @@
 }
 body:hover .stage{
     background-color: pink;
+    transition: 0.1s linear;
 }
 
 body {
@@ -74,9 +76,10 @@ body {
     text-align: center;
 }
 body:hover{
-    font-family: 'Yellowtail', cursive;
+    font-family: 'Kaushan Script', cursive;
     background-color:blueviolet;
     color:violet;
+    transition: 0.1s linear;
 }
 section{
     display: flex;
@@ -86,6 +89,7 @@ h1{
 }
 span{
     color:chartreuse;
+    transition: 0.1s linear;
 }
 .half{
     width:50%
@@ -100,6 +104,7 @@ span{
     color:black;
     font-weight:700px;
     margin-left:80px;
+    
     
 }
 div{
@@ -121,11 +126,14 @@ div{
     padding-top:70px;
 }
 body{
-    font-family: 'Yellowtail', cursive;
+    font-family: 'Kaushan Script', cursive;
     background-color: black;
     color:green;
+    transition: 0.1s linear;
     
 }
 body:hover span{
     color:rgb(255, 0, 255);
+    transition: 0.1s linear;
 }
+
