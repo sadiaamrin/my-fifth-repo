@@ -91,7 +91,7 @@ span{
     width:50%
 }
 
-  
+
 .button{
     text-decoration:none;
     background-image:linear-gradient(45deg,yellow,yellowgreen);
@@ -109,9 +109,9 @@ div{
     
 }
 
-   
-    
-    
+
+
+
 
 
 .picture{
@@ -127,5 +127,5 @@ body{
     
 }
 body:hover span{
-    color:blue;
+    color:rgb(255, 0, 255);
 }
