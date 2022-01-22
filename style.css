@@ -77,9 +77,10 @@ body {
 }
 body:hover{
     font-family: 'Kaushan Script', cursive;
-    background-color:blueviolet;
+    background-color: blueviolet;
     color:violet;
-    transition: 0.1s linear;
+    transition: 0.5s linear;
+    
 }
 section{
     display: flex;
@@ -89,7 +90,7 @@ h1{
 }
 span{
     color:chartreuse;
-    transition: 0.1s linear;
+    transition: 0.5s linear;
 }
 .half{
     width:50%
@@ -129,10 +130,10 @@ body{
     font-family: 'Kaushan Script', cursive;
     background-color: black;
     color:green;
-    transition: 0.1s linear;
+    transition: 0.5s linear;
     
 }
 body:hover span{
     color:rgb(255, 0, 255);
-    transition: 0.1s linear;
+    transition: 0.5s linear;
 }
