@@ -38,7 +38,7 @@
     width: 1260px;
     height: 450px;
     background-color:rgb(37, 37, 37);
-    transition: 0.1s linear;
+    transition: 0.5s linear;
 }
 
 .ball {
